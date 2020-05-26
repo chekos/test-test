@@ -1,0 +1,12 @@
+name: Example of simple GitHub Action
+
+on:
+  push: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Echo Hello World
+      run: |
+        echo "Hello World!"
