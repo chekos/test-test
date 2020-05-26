@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  deploy:
+  say-hi:
     runs-on: ubuntu-latest
     steps:
     - name: Echo Hello World
